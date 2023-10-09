@@ -1,0 +1,69 @@
+/* ##################################################### */
+/* Header section */
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh;
+    background-image: url(/images/sample_01.jpg);
+    opacity: 0.6;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ##################################################### */
+/* navigation section */
+.horizontal-list{
+    list-style: none;
+    padding: 5px;
+    
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px, 25px, 0px, 25px;
+}
+
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.horizontal-list li a:hover{
+    color: brown;
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+
+.text-align{
+    text-align: center;
+}
+
+/* ##################################################### */
+/* social link navigation */
+.social-link{
+    list-style: none;
+    padding: 0px;
+}
+
+
+.social-link li{
+    display: inline-block;
+    box-shadow: rgba(230, 196, 196, 0.3);
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    margin: 100px 30px 20px 30px;
+}
+
+.social-link li img{
+    height: 15px;
+    width: 15px;
+    margin: 0px 20px 0px 20px;
+}
