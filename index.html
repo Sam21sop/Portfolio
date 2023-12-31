@@ -1,222 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Resume</title>
-        <link rel="stylesheet" href="/statics/style.css">
-        
-        
-    </head>
-    <body>
-        <header id="body-header">
-            <!-- navigation section  -->
-            <nav id="header-navigation-first">
-                <ul class="horizontal-list">
-                    <li><a href="#home"> Home</a></li>
-                    <li><a href="#about"> About </a></li>
-                    <li><a href="#skills"> Skills</a></li>
-                    <li><a href="#exprience"> Experience</a></li>
-                    <li><a href="#education"> Education</a></li>
-                    <li><a href="#portfolio"> portfolio</a></li>
-                    <li><a href="#contact"> Contact</a></li>
-                </ul>
-            </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sopan Bhere - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sopan Bhere</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
 
-            <!-- main heading sections -->
-            <div class="heading-name">
-                <h1> Sopan Bhere </h1>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Your introduction and a brief description about yourself.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Add your projects here -->
+            <div class="project">
+                <h3>Ping Pong Game</h3>
+                <p>Description of Project 1.</p>
+                <a href="https://sam21sop.github.io/Ping-Pong-Game/" target="_blank" rel="noopener noreferrer">Demo</a>
             </div>
+            <div class="project">
+                <h3>Alarm Clock</h3>
+                <p>Description of Project 2.</p>
+                <a href="https://sam21sop.github.io/Alarm-clock/" target="_blank">Demo</a>
+            </div>
+        </div>
+    </section>
 
-            <!-- icon section  -->
-            <nav id="header-navigation-second">
-                <ul class="social-link">
-                    <li>
-                        <a href="#linkedin"> 
-                            <img src="/images/linkedIn-logo.png" alt="log not found">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#stack-overflow">
-                            <img src="/images/stack-overflow-logo.png" alt="logo not found">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="google-plus">
-                            <img src="images/google-plus-logo.png" alt="logo not found">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="github">
-                            <img src="images/github-logo.png" alt="logo not found">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="quora">
-                            <img src="images/quora-logo.png" alt="logo not found">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: sopanBhere@gmail.com</p>
+            <p>Phone: +91-7070707070</p>
+            <!-- <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-        <main>
-            <!-- about section  -->
-            <section id="about">
-                <div id="my-image">
-                    <img src="images/my-image.png" alt="Img-Not Found">
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate repellendus laudantium neque distinctio harum exercitationem 
-                    unde rem dolorem illo, 
-                    natus numquam id cumque sit veniam doloribus? 
-                    Cum <b>libero doloremque</b> expedita.
-                </p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            </section>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-            <!-- skills section  -->
-            <section id="skills">
-                <h1 class="section-heading">
-                    <span><i class="fasfa-chalkboard-teacher"></i></span>
-                    <span>SKILLS</span>
-                </h1>
-                <div class="skills-display">
-                    <div class="skills-progress">
-                        <div class="percentage mb-blue">
-                            <div class="skill-name">
-                                <span> C </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills-progress">
-                        <div class="percentage mb-blue">
-                            <div class="skill-name">
-                                <span> Python </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills-progress">
-                        <div class="percentage mb-blue">
-                            <div class="skill-name">
-                                <span> Java </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills-progress">
-                        <div class="percentage mb-blue">
-                            <div class="skill-name">
-                                <span> Javascript </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills-progress">
-                        <div class="percentage mb-blue">
-                            <div class="skill-name">
-                                <span> C++ </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                <button type="submit">Send Message</button>
+            </form> -->
+        </div>
+    </section>
 
-            <!-- experience section  -->
-            <section id="experience">
-                <h1 class="experience-heading">
-                    <span>Experience</span>
-                </h1>
-                <div class="experience- description">
-                    <span class="company-name">Company name</span>
-                    <span class="duration">Duration</span>
-                    <span class="designation">Designation</span>
-                    <p> Responsibility </p>
-                </div>
-            </section>
-
-            <!-- education section -->
-            <section id="education">
-                <h1 class="education-heading">
-                    <span>Education</span>
-                </h1>
-                <div class="letest-education">
-                    <table border="4">
-                        <tr>
-                            <th>Qualification</th>
-                            <th>Institute</th>
-                            <th>CGPA/Percentage</th>
-                        </tr>
-                        <tr>
-                            <td>education 1</td>
-                            <td>education 1</td>
-                            <td>education 1</td>
-                        </tr>
-                        <tr>
-                            <td>education 2</td>
-                            <td>education 2</td>
-                            <td>education 2</td>
-                        </tr>
-                        <tr>
-                            <td>education 3</td>
-                            <td>education 3</td>
-                            <td>education 3</td>
-                        </tr>
-                    </table>
-                </div>
-            </section>
-
-            <!-- portfolio section  -->
-            <section id="portfolio">
-                <h1 class="portfolio-heading">
-                    <span><img src="logo.png" alt="Not Found"></span>
-                    <span>Portfolio</span>
-                </h1>
-                <div>
-                    <span>
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png" 
-                        alt="Img-Not Found">
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png" 
-                        alt="Img-Not Found">
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png" 
-                        alt="Img-Not Found">
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png" 
-                        alt="Img-Not Found">
-                    </span>
-                </div>
-            </section>
-
-            <!-- contact section  -->
-            <section id="contact">
-                <h1 class="contact-hedaing">
-                    <span><img src="contact-logo.png" alt="Not Found"></span>
-                    <span>Contact</span>
-                </h1>
-                <div>
-                    <input type="text" name="name" placeholder="Your Name">
-                    <hr>
-                    <input type="email" name="email" placeholder="Your Email">
-                    <hr>
-                    <input type="text" name="mesage" placeholder="Message">
-                    <hr>
-                    <input type="button" value="SEND MESSAGE">
-                </div>
-                <div>
-                    <H5>Get in Touch</H5>
-                    
-                </div>
-            </section>
-        </main>
-    </body>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Sopan Bhere. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
